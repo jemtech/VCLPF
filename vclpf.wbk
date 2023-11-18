@@ -1,0 +1,17 @@
+version 2
+1
+9
+.tran 1m 10m{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+4
+1
+V(+15V)
+ 
+1
+V(-15V)
+ 
+1
+V(Net-_R20-Pad2_)
+ 
+1
+V(Net-_U2B--_)
+ 
