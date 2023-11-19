@@ -1,5 +1,9 @@
 * A quad opamp ngspice model
 * file name: ada4084_quad.txt
+* IC-Pins:
+* 14-Lead TSSOP    2    3    4    5    6    7    8    9    10   11   12   13      14   1
+* 16-Lead LFCSP    1    2    3    4    5    6    7    8    9    10   11   12  13  14   15  16
+*                  |    |    |    |    |    |    |    |    |    |    |    |   nc   |    |   nc
 .subckt ADA4084-4 1in- 1in+ vcc+ 2in+ 2in- 2out 3out 3in- 3in+ vcc- 4in+ 4in- nc 4out 1out
 .include ada4084.cir
 XU1A 1in+ 1in- vcc+ vcc- 1out ADA4084
