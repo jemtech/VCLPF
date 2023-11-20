@@ -1,0 +1,11 @@
+* A dual serial schottky ngspice model
+* file name: BAT54_SERIAL.spice.txt
+* 3-Lead SOT-23           1      2      3    
+*                         |      |      |
+.subckt DI_BAT54_SERIAL anode cathode center 
+D1 anode center DI_BAT54
+D2 center cathode DI_BAT54
+
+.MODEL DI_BAT54 D  ( IS=34.9u RS=0.210 BV=30.0 IBV=2.00u
++ CJO=13.3p  M=0.333 N=2.28 TT=7.20n )
+.ends

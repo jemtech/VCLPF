@@ -1,4 +1,5 @@
 *.lck
-#auto_saved_files#
+\#auto_saved_files#
 vclpf-backups/
+*.kicad_sch-bak
 fp-info-cache
