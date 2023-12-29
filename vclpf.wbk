@@ -1,14 +1,20 @@
 version 2
 1
 9
-.tran 1m 100m{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
-3
+.tran 1m 1{return}.kicad adjustpaths{return}.save all{return}.probe alli
+5
+1
+V(Audio_in)
+ 
+1
+V(Audio_out)
+ 
 1
 V(CV)
  
 1
-V(Net-_R17-Pad1_)
+V(buffered_sig)
  
 1
-V(Net-_U1D--_)
+V(first_stage_sig)
  
