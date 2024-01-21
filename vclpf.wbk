@@ -1,23 +1,5 @@
 version 2
 1
 9
-.tran 1m 150m{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
-6
-1
-V(Audio_in)
- 
-1
-V(CV)
- 
-1
-V(Net-_R11-Pad1_)
- 
-1
-V(Net-_R14-Pad1_)
- 
-1
-V(Net-_R17-Pad1_)
- 
-1
-V(Net-_U1D-+_)
- 
+.tran 10m 1{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+0
